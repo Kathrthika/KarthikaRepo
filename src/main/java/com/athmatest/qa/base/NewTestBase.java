@@ -111,15 +111,24 @@ public class NewTestBase {
 		wait.until(ExpectedConditions.visibilityOf(ele));
 		}
 	
+	public  static void commonclickablewait(WebElement ele) {
+		WebDriverWait wait = new WebDriverWait(driver, CommonUtils.common_Wait);
+		wait.until(ExpectedConditions.elementToBeClickable(ele));
+		}
+	
 	 public static void commonActions(WebElement ele) {	
 		 commonWait(ele);
 		 Actions act = new Actions(driver);
-		 act.moveToElement(ele).build().perform();
-		 ele.click();
+		 act.moveToElement(ele).click().build().perform();
+		
+		 
 		 
 	 }
 	 
 	 public static void commonSleep() throws InterruptedException {
+		 Thread.sleep(3000);
+	 }
+	 public static void shortSleep() throws InterruptedException {
 		 Thread.sleep(2000);
 	 }
 	

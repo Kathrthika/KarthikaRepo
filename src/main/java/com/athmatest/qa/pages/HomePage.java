@@ -55,9 +55,9 @@ public class HomePage extends NewTestBase {
 	}
 	
 	public void openRegistrationPage() throws InterruptedException {
-		commonWait(ambMainMenu);
+		//commonWait(ambMainMenu);
 		commonActions(ambMainMenu);
-		commonWait(regitrationMenu);
+		//commonWait(regitrationMenu);
 		commonActions(regitrationMenu);
 		commonSleep();
 		
