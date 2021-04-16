@@ -5,7 +5,7 @@
     <classes>
       <class name="com.athmatest.qa.testcases.NewRegistrationTest">
         <methods>
-          <include name="newRegistration" invocation-numbers="3"/>
+          <include name="newRegistration" invocation-numbers="1"/>
           <include name="closeBrowser"/>
           <include name="intialization"/>
           <include name="loginToTheApplication"/>

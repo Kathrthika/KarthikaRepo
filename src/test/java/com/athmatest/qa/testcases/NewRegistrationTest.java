@@ -2,10 +2,13 @@ package com.athmatest.qa.testcases;
 
 import static org.testng.Assert.assertEquals;
 
+ 
+
 import java.io.IOException;
 import java.util.List;
 
 import org.apache.bcel.generic.Select;
+import org.apache.log4j.Logger;
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -21,6 +24,7 @@ import com.athmatest.qa.pages.RegistrationListPage;
 import com.athmatest.qa.utils.CommonUtils;
 
 public class NewRegistrationTest extends NewTestBase {
+	Logger log = Logger.getLogger(NewRegistrationTest.class);
 	 LoginPage lp ;
 	  HomePage hp;
 	  RegistrationListPage nrlp;
