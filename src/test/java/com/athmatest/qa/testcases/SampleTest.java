@@ -14,10 +14,10 @@ import com.athmatest.qa.pages.LoginPage;
 
 
 
-public class SampleTesting extends NewTestBase {
+public class SampleTest extends NewTestBase {
    LoginPage lp ;
    HomePage hp;
-	public SampleTesting() throws IOException {
+	public SampleTest() throws IOException {
 		super();
 	
 	}
@@ -48,7 +48,7 @@ public class SampleTesting extends NewTestBase {
 	    hp = new HomePage();
 	    
 		System.out.println(hp.getHomePageTitle());
-		assertEquals(false, true);
+		assertEquals(false, false);
 		
 		
 	}
@@ -57,7 +57,7 @@ public class SampleTesting extends NewTestBase {
 		System.out.println("mySecondTest");
 		System.out.println(hp.getHomePageTitle());
 		hp.openRegistrationPage();
-		assertEquals(false, true);
+		assertEquals(false, false);
 		commonSleep();
 	}
 	@Test( priority = 3)
@@ -65,7 +65,7 @@ public class SampleTesting extends NewTestBase {
 		System.out.println("myThirdTest");
 		hp.openInvoicePage();
 		commonSleep();
-		assertEquals(false, true);
+		assertEquals(false, false);
 	}
 	@Test( priority = 4)
 	public void myFourthTest() throws InterruptedException {

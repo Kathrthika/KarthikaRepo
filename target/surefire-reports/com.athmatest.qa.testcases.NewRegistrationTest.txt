@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.athmatest.qa.testcases.NewRegistrationTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 193.761 sec

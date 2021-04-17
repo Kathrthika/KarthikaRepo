@@ -1,0 +1,7 @@
+com\athmatest\qa\pages\HomePage.class
+com\athmatest\qa\pages\LoginPage.class
+com\athmatest\qa\base\NewTestBase.class
+com\athmatest\qa\ExtentReportListener\ExtentReporterNG.class
+com\athmatest\qa\pages\NewRegistrationPage.class
+com\athmatest\qa\utils\CommonUtils.class
+com\athmatest\qa\pages\RegistrationListPage.class

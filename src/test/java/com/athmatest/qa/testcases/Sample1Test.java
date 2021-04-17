@@ -12,10 +12,10 @@ import com.athmatest.qa.pages.LoginPage;
 
 
 
-public class SampleTesting1 extends NewTestBase {
+public class Sample1Test extends NewTestBase {
    LoginPage lp ;
    HomePage hp;
-	public SampleTesting1() throws IOException {
+	public Sample1Test() throws IOException {
 		super();
 	
 	}
