@@ -6,7 +6,6 @@ import java.io.IOException;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.athmatest.qa.base.NewTestBase;
@@ -14,7 +13,7 @@ import com.athmatest.qa.pages.HomePage;
 import com.athmatest.qa.pages.LoginPage;
 
 
-@Listeners(CustomListener.class)
+
 public class SampleTesting extends NewTestBase {
    LoginPage lp ;
    HomePage hp;

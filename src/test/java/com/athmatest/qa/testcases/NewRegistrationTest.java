@@ -14,7 +14,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.athmatest.qa.base.NewTestBase;
@@ -24,7 +23,6 @@ import com.athmatest.qa.pages.NewRegistrationPage;
 import com.athmatest.qa.pages.RegistrationListPage;
 import com.athmatest.qa.utils.CommonUtils;
 
-@Listeners(CustomListener.class)
 public class NewRegistrationTest extends NewTestBase {
 	Logger log = Logger.getLogger(NewRegistrationTest.class);
 	 LoginPage lp ;

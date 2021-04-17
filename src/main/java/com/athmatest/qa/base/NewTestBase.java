@@ -2,20 +2,13 @@ package com.athmatest.qa.base;
 
 import static org.testng.Assert.assertEquals;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.time.LocalDate;
-import java.time.LocalTime;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.io.FileSystemUtils;
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -108,6 +101,7 @@ public class NewTestBase {
 	
 	
 	
+	
 	public static void testcloseBrowser() {
 		driver.close();
 	}
@@ -115,7 +109,6 @@ public class NewTestBase {
 	public  static void commonWait(WebElement ele) {
 		WebDriverWait wait = new WebDriverWait(driver, CommonUtils.common_Wait);
 		wait.until(ExpectedConditions.visibilityOf(ele));
-		
 		}
 	
 	public  static void commonclickablewait(WebElement ele) {
@@ -132,25 +125,6 @@ public class NewTestBase {
 		 
 	 }
 	 
-	 public void takeScreeShot(String testName) {
-		 File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		 LocalDate date1 = java.time.LocalDate.now();
-			LocalTime time1 = java.time.LocalTime.now();
-			String cd1 = date1.toString();
-			String ct1 = time1.toString();
-			
-			String cd = cd1.replace("-", "_");
-			String ct = ((ct1.replace(":", "_")).replace(".","_")).substring(0, 8);
-		 try {
-			FileUtils.copyFile(screenshotFile, new File("C:\\Users\\339154\\eclipse-workspace\\"
-					+ "NewFrameworkStart\\screenshots\\"+testName+cd+"_"+ct+"_"+".jpg"));
-			 
-		} catch (Exception e) {
-			// TODO: handle exception
-		}
-		 
-	 }
-	 
 	 public static void commonSleep() throws InterruptedException {
 		 Thread.sleep(3000);
 	 }
@@ -158,11 +132,6 @@ public class NewTestBase {
 		 Thread.sleep(2000);
 	 }
 	
-	
-
-	 
-	 
-	 
 }
 	
 	
