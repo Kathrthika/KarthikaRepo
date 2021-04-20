@@ -1,88 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results retried="4" ignored="0" total="8" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-16T18:06:56 IST" name="Default suite" finished-at="2021-04-16T18:10:57 IST" duration-ms="241120">
+  <suite started-at="2021-04-20T18:17:11 IST" name="Suite" finished-at="2021-04-20T18:20:04 IST" duration-ms="172840">
     <groups>
     </groups>
-    <test started-at="2021-04-16T18:06:56 IST" name="Default test" finished-at="2021-04-16T18:10:57 IST" duration-ms="241120">
-      <class name="com.athmatest.qa.testcases.NewRegistrationTest">
-        <test-method is-config="true" signature="intialization()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:06:56 IST" name="intialization" finished-at="2021-04-16T18:07:07 IST" duration-ms="10763" status="PASS">
+    <test started-at="2021-04-20T18:17:11 IST" name="Test" finished-at="2021-04-20T18:20:04 IST" duration-ms="172840">
+      <class name="com.athmatest.qa.testcases.SampleTest">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:17:11 IST" name="intialization" finished-at="2021-04-20T18:17:26 IST" duration-ms="14456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialization -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:07:08 IST" name="loginToTheApplication" finished-at="2021-04-16T18:07:14 IST" duration-ms="6391" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:17:26 IST" name="loginToTheApplication" finished-at="2021-04-20T18:17:32 IST" duration-ms="6443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="newRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:07:14 IST" name="newRegistration" data-provider="getpatientinfo" finished-at="2021-04-16T18:07:44 IST" duration-ms="29299" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mr.]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Panner]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[11]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[560021]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="myFirstTest()[pri:1, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:17:32 IST" name="myFirstTest" finished-at="2021-04-20T18:17:32 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newRegistration -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:07:44 IST" name="logOutFromTheApplication" finished-at="2021-04-16T18:07:50 IST" duration-ms="6226" status="PASS">
+        </test-method> <!-- myFirstTest -->
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:17:32 IST" name="logOutFromTheApplication" finished-at="2021-04-20T18:17:39 IST" duration-ms="6682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:07:50 IST" name="loginToTheApplication" finished-at="2021-04-16T18:07:56 IST" duration-ms="6306" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:17:39 IST" name="loginToTheApplication" finished-at="2021-04-20T18:17:45 IST" duration-ms="6309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="newRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:07:56 IST" name="newRegistration" data-provider="getpatientinfo" finished-at="2021-04-16T18:08:45 IST" duration-ms="49279" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mr.]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Selvam]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[12]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[560021]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method signature="mySecondTest()[pri:2, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:17:45 IST" name="mySecondTest" finished-at="2021-04-20T18:17:52 IST" duration-ms="6438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mySecondTest -->
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:17:52 IST" name="logOutFromTheApplication" finished-at="2021-04-20T18:17:58 IST" duration-ms="6284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromTheApplication -->
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:17:58 IST" name="loginToTheApplication" finished-at="2021-04-20T18:18:04 IST" duration-ms="6277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToTheApplication -->
+        <test-method retried="true" signature="myThirdTest()[pri:3, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:18:04 IST" name="myThirdTest" finished-at="2021-04-20T18:18:17 IST" duration-ms="12517" status="SKIP">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Ok')]' (tried for 30 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Ok')]' (tried for 30 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.athmatest.qa.base.NewTestBase.commonWait(NewTestBase.java:111)
-at com.athmatest.qa.pages.NewRegistrationPage.clickOnRegisterandCancelButton(NewRegistrationPage.java:123)
-at com.athmatest.qa.testcases.NewRegistrationTest.newRegistration(NewRegistrationTest.java:86)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.athmatest.qa.testcases.SampleTest.myThirdTest(SampleTest.java:51)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -111,155 +81,301 @@ at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Ok')]"}
-  (Session info: chrome=89.0.4389.128)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'CORPLPW100314', ip: '10.120.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\339154\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ea22f6ee4e3100f353c25b8474b86d8a
-*** Element info: {Using=xpath, value=//button[contains(text(),'Ok')]}
-at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 31 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newRegistration -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:08:45 IST" name="logOutFromTheApplication" finished-at="2021-04-16T18:08:52 IST" duration-ms="6261" status="PASS">
+        </test-method> <!-- myThirdTest -->
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:18:17 IST" name="logOutFromTheApplication" finished-at="2021-04-20T18:18:24 IST" duration-ms="6641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:08:52 IST" name="loginToTheApplication" finished-at="2021-04-16T18:08:58 IST" duration-ms="6270" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:18:24 IST" name="loginToTheApplication" finished-at="2021-04-20T18:18:30 IST" duration-ms="6269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="newRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:08:58 IST" name="newRegistration" data-provider="getpatientinfo" finished-at="2021-04-16T18:09:20 IST" duration-ms="21678" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mr.]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Mani]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[12]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[560021]]>
-              </value>
-            </param>
-          </params>
+        <test-method retried="true" signature="myThirdTest()[pri:3, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:18:30 IST" name="myThirdTest" finished-at="2021-04-20T18:18:38 IST" duration-ms="8323" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.athmatest.qa.testcases.SampleTest.myThirdTest(SampleTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newRegistration -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:09:20 IST" name="logOutFromTheApplication" finished-at="2021-04-16T18:09:26 IST" duration-ms="6300" status="PASS">
+        </test-method> <!-- myThirdTest -->
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:18:38 IST" name="logOutFromTheApplication" finished-at="2021-04-20T18:18:45 IST" duration-ms="6336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:09:26 IST" name="loginToTheApplication" finished-at="2021-04-16T18:09:32 IST" duration-ms="6264" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:18:45 IST" name="loginToTheApplication" finished-at="2021-04-20T18:18:51 IST" duration-ms="6341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="newRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:09:32 IST" name="newRegistration" data-provider="getpatientinfo" finished-at="2021-04-16T18:09:54 IST" duration-ms="21914" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mr.]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Yadhav]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[12]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[560021]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="myThirdTest()[pri:3, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:18:51 IST" name="myThirdTest" finished-at="2021-04-20T18:18:58 IST" duration-ms="7142" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.athmatest.qa.testcases.SampleTest.myThirdTest(SampleTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newRegistration -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:09:54 IST" name="logOutFromTheApplication" finished-at="2021-04-16T18:10:00 IST" duration-ms="6211" status="PASS">
+        </test-method> <!-- myThirdTest -->
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:18:58 IST" name="logOutFromTheApplication" finished-at="2021-04-20T18:19:04 IST" duration-ms="6224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:10:00 IST" name="loginToTheApplication" finished-at="2021-04-16T18:10:07 IST" duration-ms="6269" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:19:04 IST" name="loginToTheApplication" finished-at="2021-04-20T18:19:11 IST" duration-ms="6282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="newRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:10:07 IST" name="newRegistration" data-provider="getpatientinfo" finished-at="2021-04-16T18:10:50 IST" duration-ms="43681" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mr.]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Manju]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[12]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[560021]]>
-              </value>
-            </param>
-          </params>
+        <test-method retried="true" signature="myFourthTest()[pri:4, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:19:11 IST" name="myFourthTest" finished-at="2021-04-20T18:19:18 IST" duration-ms="7480" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.athmatest.qa.testcases.SampleTest.myFourthTest(SampleTest.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newRegistration -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:10:50 IST" name="logOutFromTheApplication" finished-at="2021-04-16T18:10:57 IST" duration-ms="6236" status="PASS">
+        </test-method> <!-- myFourthTest -->
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:19:18 IST" name="logOutFromTheApplication" finished-at="2021-04-20T18:19:24 IST" duration-ms="6271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@bccb269]" started-at="2021-04-16T18:10:57 IST" name="closeBrowser" finished-at="2021-04-16T18:10:57 IST" duration-ms="721" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:19:24 IST" name="loginToTheApplication" finished-at="2021-04-20T18:19:31 IST" duration-ms="6229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToTheApplication -->
+        <test-method retried="true" signature="myFourthTest()[pri:4, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:19:31 IST" name="myFourthTest" finished-at="2021-04-20T18:19:38 IST" duration-ms="7317" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.athmatest.qa.testcases.SampleTest.myFourthTest(SampleTest.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myFourthTest -->
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:19:38 IST" name="logOutFromTheApplication" finished-at="2021-04-20T18:19:44 IST" duration-ms="6249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromTheApplication -->
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:19:44 IST" name="loginToTheApplication" finished-at="2021-04-20T18:19:50 IST" duration-ms="6290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToTheApplication -->
+        <test-method signature="myFourthTest()[pri:4, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:19:50 IST" name="myFourthTest" finished-at="2021-04-20T18:19:57 IST" duration-ms="7071" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.athmatest.qa.testcases.SampleTest.myFourthTest(SampleTest.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myFourthTest -->
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:19:57 IST" name="logOutFromTheApplication" finished-at="2021-04-20T18:20:04 IST" duration-ms="6222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromTheApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@37afeb11]" started-at="2021-04-20T18:20:04 IST" name="closeBrowser" finished-at="2021-04-20T18:20:04 IST" duration-ms="605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.athmatest.qa.testcases.NewRegistrationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.athmatest.qa.testcases.SampleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

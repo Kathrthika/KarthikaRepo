@@ -23,24 +23,7 @@ public class SampleTest extends NewTestBase {
 	}
 	
 	
-	/*
-	 * @BeforeMethod public void loginToTheApplication() throws IOException,
-	 * InterruptedException { //intialization(); lp = new LoginPage();
-	 * 
-	 * String userId = prop.getProperty("userName"); String userPass =
-	 * prop.getProperty("passWord");
-	 * System.out.println(("Before method "+userId+" "+userPass)); //lp = new
-	 * LoginPage(); lp.enterUserName(userId, userPass); Thread.sleep(4000); hp = new
-	 * HomePage(); }
-	 * 
-	 * @AfterMethod public void logOutFromTheApplication() throws IOException {
-	 * System.out.println("Loging Out from the application");
-	 * 
-	 * hp.logOutFromApplication();
-	 * 
-	 * 
-	 * }
-	 */
+	
 	
 	@Test(priority = 1)
 	public void myFirstTest() throws IOException {
@@ -65,14 +48,14 @@ public class SampleTest extends NewTestBase {
 		System.out.println("myThirdTest");
 		hp.openInvoicePage();
 		commonSleep();
-		assertEquals(false, false);
+		assertEquals(false, true);
 	}
 	@Test( priority = 4)
 	public void myFourthTest() throws InterruptedException {
 		System.out.println("myFourthTest");
 		hp.openReceiptPage();
 		commonSleep();
-		assertEquals(false, false);
+		assertEquals(false, true);
 	}
 	
 
