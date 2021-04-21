@@ -5,7 +5,7 @@
     <classes>
       <class name="com.athmatest.qa.testcases.NewRegistrationTest">
         <methods>
-          <include name="newRegistration" invocation-numbers="0"/>
+          <include name="newRegistration" invocation-numbers="0 2 3 4"/>
           <include name="closeBrowser"/>
           <include name="intialization"/>
           <include name="loginToTheApplication"/>
@@ -14,11 +14,10 @@
       </class> <!-- com.athmatest.qa.testcases.NewRegistrationTest -->
       <class name="com.athmatest.qa.testcases.SampleTest">
         <methods>
+          <include name="myFourthTest"/>
           <include name="myThirdTest"/>
           <include name="closeBrowser"/>
           <include name="intialization"/>
-          <include name="myFirstTest"/>
-          <include name="mySecondTest"/>
           <include name="loginToTheApplication"/>
           <include name="logOutFromTheApplication"/>
         </methods>

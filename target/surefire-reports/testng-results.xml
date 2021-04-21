@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="9" failed="4" skipped="0">
+<testng-results ignored="0" total="13" passed="7" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-17T20:54:21 IST" name="Command line suite" finished-at="2021-04-17T20:59:52 IST" duration-ms="331282">
+  <suite started-at="2021-04-20T19:56:51 IST" name="Command line suite" finished-at="2021-04-20T20:05:15 IST" duration-ms="504077">
     <groups>
     </groups>
-    <test started-at="2021-04-17T20:54:21 IST" name="Command line test" finished-at="2021-04-17T20:59:52 IST" duration-ms="331282">
+    <test started-at="2021-04-20T19:56:51 IST" name="Command line test" finished-at="2021-04-20T20:05:15 IST" duration-ms="504077">
       <class name="com.athmatest.qa.testcases.NewRegistrationTest">
-        <test-method is-config="true" signature="intialization()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:54:21 IST" name="intialization" finished-at="2021-04-17T20:54:30 IST" duration-ms="9123" status="PASS">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T19:56:51 IST" name="intialization" finished-at="2021-04-20T19:56:58 IST" duration-ms="7240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialization -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:54:32 IST" name="loginToTheApplication" finished-at="2021-04-17T20:54:38 IST" duration-ms="6454" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T19:56:59 IST" name="loginToTheApplication" finished-at="2021-04-20T19:57:06 IST" duration-ms="6429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="newRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:54:38 IST" name="newRegistration" data-provider="getpatientinfo" finished-at="2021-04-17T20:54:49 IST" duration-ms="10703" status="FAIL">
+        <test-method signature="newRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T19:57:06 IST" name="newRegistration" data-provider="getpatientinfo" finished-at="2021-04-20T19:58:01 IST" duration-ms="55332" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -38,47 +38,17 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[stale element reference: element is not attached to the page document
-  (Session info: chrome=89.0.4389.128)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'CORPLPW100314', ip: '10.120.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\339154\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fd793a82101ff1c5a51b47826d878e43]]>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Ok')]' (tried for 30 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=89.0.4389.128)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'CORPLPW100314', ip: '10.120.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\339154\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fd793a82101ff1c5a51b47826d878e43
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy13.getText(Unknown Source)
-at com.athmatest.qa.pages.NewRegistrationPage.newpatientRegistrationPageTitle(NewRegistrationPage.java:63)
-at com.athmatest.qa.testcases.NewRegistrationTest.newRegistration(NewRegistrationTest.java:61)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Ok')]' (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.athmatest.qa.base.NewTestBase.commonWait(NewTestBase.java:111)
+at com.athmatest.qa.pages.NewRegistrationPage.clickOnRegisterandCancelButton(NewRegistrationPage.java:123)
+at com.athmatest.qa.testcases.NewRegistrationTest.newRegistration(NewRegistrationTest.java:86)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -117,21 +87,53 @@ at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(Provide
 at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Ok')]"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CORPLPW100314', ip: '10.120.8.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\339154\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb28901d478fe33cf819e6ddb5e94b4e
+*** Element info: {Using=xpath, value=//button[contains(text(),'Ok')]}
+at jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 41 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newRegistration -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:54:49 IST" name="logOutFromTheApplication" finished-at="2021-04-17T20:54:57 IST" duration-ms="7724" status="PASS">
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T19:58:01 IST" name="logOutFromTheApplication" finished-at="2021-04-20T19:58:07 IST" duration-ms="6280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:54:57 IST" name="loginToTheApplication" finished-at="2021-04-17T20:55:03 IST" duration-ms="6457" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T19:58:07 IST" name="loginToTheApplication" finished-at="2021-04-20T19:58:13 IST" duration-ms="6256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="newRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:55:03 IST" name="newRegistration" data-provider="getpatientinfo" finished-at="2021-04-17T20:55:28 IST" duration-ms="24739" status="PASS">
+        <test-method signature="newRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T19:58:13 IST" name="newRegistration" data-provider="getpatientinfo" finished-at="2021-04-20T19:58:38 IST" duration-ms="24377" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -157,15 +159,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newRegistration -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:55:28 IST" name="logOutFromTheApplication" finished-at="2021-04-17T20:55:34 IST" duration-ms="6364" status="PASS">
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T19:58:38 IST" name="logOutFromTheApplication" finished-at="2021-04-20T19:58:44 IST" duration-ms="6235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:55:34 IST" name="loginToTheApplication" finished-at="2021-04-17T20:55:41 IST" duration-ms="6375" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T19:58:44 IST" name="loginToTheApplication" finished-at="2021-04-20T19:58:50 IST" duration-ms="6308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="newRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:55:41 IST" name="newRegistration" data-provider="getpatientinfo" finished-at="2021-04-17T20:56:05 IST" duration-ms="23779" status="PASS">
+        <test-method signature="newRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T19:58:50 IST" name="newRegistration" data-provider="getpatientinfo" finished-at="2021-04-20T19:59:37 IST" duration-ms="46602" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -188,18 +190,102 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Ok')]' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Ok')]' (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.athmatest.qa.base.NewTestBase.commonWait(NewTestBase.java:111)
+at com.athmatest.qa.pages.NewRegistrationPage.clickOnRegisterandCancelButton(NewRegistrationPage.java:123)
+at com.athmatest.qa.testcases.NewRegistrationTest.newRegistration(NewRegistrationTest.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Ok')]"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CORPLPW100314', ip: '10.120.8.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\339154\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb28901d478fe33cf819e6ddb5e94b4e
+*** Element info: {Using=xpath, value=//button[contains(text(),'Ok')]}
+at jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 41 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newRegistration -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:56:05 IST" name="logOutFromTheApplication" finished-at="2021-04-17T20:56:11 IST" duration-ms="6284" status="PASS">
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T19:59:37 IST" name="logOutFromTheApplication" finished-at="2021-04-20T19:59:43 IST" duration-ms="6418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:56:11 IST" name="loginToTheApplication" finished-at="2021-04-17T20:56:17 IST" duration-ms="6352" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T19:59:43 IST" name="loginToTheApplication" finished-at="2021-04-20T19:59:50 IST" duration-ms="6243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="newRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:56:17 IST" name="newRegistration" data-provider="getpatientinfo" finished-at="2021-04-17T20:56:41 IST" duration-ms="23488" status="PASS">
+        <test-method signature="newRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T19:59:50 IST" name="newRegistration" data-provider="getpatientinfo" finished-at="2021-04-20T20:00:36 IST" duration-ms="46264" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -222,18 +308,102 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Ok')]' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Ok')]' (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.athmatest.qa.base.NewTestBase.commonWait(NewTestBase.java:111)
+at com.athmatest.qa.pages.NewRegistrationPage.clickOnRegisterandCancelButton(NewRegistrationPage.java:123)
+at com.athmatest.qa.testcases.NewRegistrationTest.newRegistration(NewRegistrationTest.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Ok')]"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CORPLPW100314', ip: '10.120.8.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\339154\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb28901d478fe33cf819e6ddb5e94b4e
+*** Element info: {Using=xpath, value=//button[contains(text(),'Ok')]}
+at jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 41 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newRegistration -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:56:41 IST" name="logOutFromTheApplication" finished-at="2021-04-17T20:56:47 IST" duration-ms="6299" status="PASS">
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T20:00:36 IST" name="logOutFromTheApplication" finished-at="2021-04-20T20:00:42 IST" duration-ms="6276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:56:47 IST" name="loginToTheApplication" finished-at="2021-04-17T20:56:53 IST" duration-ms="6375" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T20:00:42 IST" name="loginToTheApplication" finished-at="2021-04-20T20:00:48 IST" duration-ms="6266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="newRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:56:53 IST" name="newRegistration" data-provider="getpatientinfo" finished-at="2021-04-17T20:57:17 IST" duration-ms="24082" status="PASS">
+        <test-method signature="newRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T20:00:48 IST" name="newRegistration" data-provider="getpatientinfo" finished-at="2021-04-20T20:01:36 IST" duration-ms="47578" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -256,160 +426,136 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Ok')]' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Ok')]' (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.athmatest.qa.base.NewTestBase.commonWait(NewTestBase.java:111)
+at com.athmatest.qa.pages.NewRegistrationPage.clickOnRegisterandCancelButton(NewRegistrationPage.java:123)
+at com.athmatest.qa.testcases.NewRegistrationTest.newRegistration(NewRegistrationTest.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Ok')]"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CORPLPW100314', ip: '10.120.8.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\339154\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb28901d478fe33cf819e6ddb5e94b4e
+*** Element info: {Using=xpath, value=//button[contains(text(),'Ok')]}
+at jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 41 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newRegistration -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:57:17 IST" name="logOutFromTheApplication" finished-at="2021-04-17T20:57:24 IST" duration-ms="6282" status="PASS">
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T20:01:36 IST" name="logOutFromTheApplication" finished-at="2021-04-20T20:01:42 IST" duration-ms="6279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-17T20:57:24 IST" name="closeBrowser" finished-at="2021-04-17T20:57:25 IST" duration-ms="886" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.athmatest.qa.testcases.NewRegistrationTest@1184ab05]" started-at="2021-04-20T20:01:42 IST" name="closeBrowser" finished-at="2021-04-20T20:01:46 IST" duration-ms="4165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.athmatest.qa.testcases.NewRegistrationTest -->
       <class name="com.athmatest.qa.testcases.SampleTest">
-        <test-method is-config="true" signature="intialization()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-17T20:58:28 IST" name="intialization" finished-at="2021-04-17T20:58:37 IST" duration-ms="8342" status="PASS">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-20T20:03:02 IST" name="intialization" finished-at="2021-04-20T20:03:44 IST" duration-ms="41550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialization -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-17T20:58:37 IST" name="loginToTheApplication" finished-at="2021-04-17T20:58:43 IST" duration-ms="6295" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-20T20:03:44 IST" name="loginToTheApplication" finished-at="2021-04-20T20:03:50 IST" duration-ms="6260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="myFirstTest()[pri:1, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-17T20:58:43 IST" name="myFirstTest" finished-at="2021-04-17T20:58:43 IST" duration-ms="6" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:819)
-at org.testng.Assert.assertEquals(Assert.java:829)
-at com.athmatest.qa.testcases.SampleTest.myFirstTest(SampleTest.java:51)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="myFirstTest()[pri:1, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-20T20:03:50 IST" name="myFirstTest" finished-at="2021-04-20T20:03:50 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myFirstTest -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-17T20:58:43 IST" name="logOutFromTheApplication" finished-at="2021-04-17T20:58:49 IST" duration-ms="6358" status="PASS">
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-20T20:03:50 IST" name="logOutFromTheApplication" finished-at="2021-04-20T20:03:57 IST" duration-ms="6704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-17T20:58:49 IST" name="loginToTheApplication" finished-at="2021-04-17T20:58:56 IST" duration-ms="6319" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-20T20:03:57 IST" name="loginToTheApplication" finished-at="2021-04-20T20:04:03 IST" duration-ms="6222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="mySecondTest()[pri:2, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-17T20:58:56 IST" name="mySecondTest" finished-at="2021-04-17T20:59:03 IST" duration-ms="7514" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:819)
-at org.testng.Assert.assertEquals(Assert.java:829)
-at com.athmatest.qa.testcases.SampleTest.mySecondTest(SampleTest.java:60)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="mySecondTest()[pri:2, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-20T20:04:03 IST" name="mySecondTest" finished-at="2021-04-20T20:04:17 IST" duration-ms="14184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySecondTest -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-17T20:59:03 IST" name="logOutFromTheApplication" finished-at="2021-04-17T20:59:09 IST" duration-ms="6338" status="PASS">
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-20T20:04:17 IST" name="logOutFromTheApplication" finished-at="2021-04-20T20:04:23 IST" duration-ms="6346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-17T20:59:09 IST" name="loginToTheApplication" finished-at="2021-04-17T20:59:16 IST" duration-ms="6483" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-20T20:04:23 IST" name="loginToTheApplication" finished-at="2021-04-20T20:04:30 IST" duration-ms="6261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="myThirdTest()[pri:3, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-17T20:59:16 IST" name="myThirdTest" finished-at="2021-04-17T20:59:24 IST" duration-ms="8255" status="FAIL">
+        <test-method signature="myThirdTest()[pri:3, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-20T20:04:30 IST" name="myThirdTest" finished-at="2021-04-20T20:04:38 IST" duration-ms="8250" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -422,7 +568,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:819)
 at org.testng.Assert.assertEquals(Assert.java:829)
-at com.athmatest.qa.testcases.SampleTest.myThirdTest(SampleTest.java:68)
+at com.athmatest.qa.testcases.SampleTest.myThirdTest(SampleTest.java:51)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -467,81 +613,135 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myThirdTest -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-17T20:59:24 IST" name="logOutFromTheApplication" finished-at="2021-04-17T20:59:30 IST" duration-ms="6322" status="PASS">
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-20T20:04:38 IST" name="logOutFromTheApplication" finished-at="2021-04-20T20:04:44 IST" duration-ms="6242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-17T20:59:30 IST" name="loginToTheApplication" finished-at="2021-04-17T20:59:37 IST" duration-ms="6349" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-20T20:04:44 IST" name="loginToTheApplication" finished-at="2021-04-20T20:04:50 IST" duration-ms="6259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="myFourthTest()[pri:4, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-17T20:59:37 IST" name="myFourthTest" finished-at="2021-04-17T20:59:45 IST" duration-ms="8179" status="PASS">
+        <test-method signature="myFourthTest()[pri:4, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-20T20:04:50 IST" name="myFourthTest" finished-at="2021-04-20T20:05:05 IST" duration-ms="14121" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.athmatest.qa.testcases.SampleTest.myFourthTest(SampleTest.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myFourthTest -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-17T20:59:45 IST" name="logOutFromTheApplication" finished-at="2021-04-17T20:59:51 IST" duration-ms="6536" status="PASS">
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-20T20:05:05 IST" name="logOutFromTheApplication" finished-at="2021-04-20T20:05:11 IST" duration-ms="6262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-17T20:59:51 IST" name="closeBrowser" finished-at="2021-04-17T20:59:52 IST" duration-ms="845" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.athmatest.qa.testcases.SampleTest@10e92f8f]" started-at="2021-04-20T20:05:11 IST" name="closeBrowser" finished-at="2021-04-20T20:05:15 IST" duration-ms="4242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.athmatest.qa.testcases.SampleTest -->
       <class name="com.athmatest.qa.testcases.Sample1Test">
-        <test-method is-config="true" signature="intialization()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-17T20:57:25 IST" name="intialization" finished-at="2021-04-17T20:57:33 IST" duration-ms="8017" status="PASS">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-20T20:01:46 IST" name="intialization" finished-at="2021-04-20T20:02:09 IST" duration-ms="22956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialization -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-17T20:57:33 IST" name="loginToTheApplication" finished-at="2021-04-17T20:57:39 IST" duration-ms="6311" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-20T20:02:09 IST" name="loginToTheApplication" finished-at="2021-04-20T20:02:16 IST" duration-ms="6241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="myFirstTest()[pri:1, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-17T20:57:39 IST" name="myFirstTest" finished-at="2021-04-17T20:57:39 IST" duration-ms="6" status="PASS">
+        <test-method signature="myFirstTest()[pri:1, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-20T20:02:16 IST" name="myFirstTest" finished-at="2021-04-20T20:02:16 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myFirstTest -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-17T20:57:39 IST" name="logOutFromTheApplication" finished-at="2021-04-17T20:57:45 IST" duration-ms="6417" status="PASS">
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-20T20:02:16 IST" name="logOutFromTheApplication" finished-at="2021-04-20T20:02:24 IST" duration-ms="8336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-17T20:57:45 IST" name="loginToTheApplication" finished-at="2021-04-17T20:57:52 IST" duration-ms="6611" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-20T20:02:24 IST" name="loginToTheApplication" finished-at="2021-04-20T20:02:30 IST" duration-ms="6253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="mySecondTest()[pri:2, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-17T20:57:52 IST" name="mySecondTest" finished-at="2021-04-17T20:57:52 IST" duration-ms="53" status="PASS">
+        <test-method signature="mySecondTest()[pri:2, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-20T20:02:30 IST" name="mySecondTest" finished-at="2021-04-20T20:02:30 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySecondTest -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-17T20:57:52 IST" name="logOutFromTheApplication" finished-at="2021-04-17T20:57:59 IST" duration-ms="6438" status="PASS">
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-20T20:02:30 IST" name="logOutFromTheApplication" finished-at="2021-04-20T20:02:36 IST" duration-ms="6209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-17T20:57:59 IST" name="loginToTheApplication" finished-at="2021-04-17T20:58:05 IST" duration-ms="6323" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-20T20:02:36 IST" name="loginToTheApplication" finished-at="2021-04-20T20:02:43 IST" duration-ms="6261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="myThirdTest()[pri:3, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-17T20:58:05 IST" name="myThirdTest" finished-at="2021-04-17T20:58:05 IST" duration-ms="15" status="PASS">
+        <test-method signature="myThirdTest()[pri:3, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-20T20:02:43 IST" name="myThirdTest" finished-at="2021-04-20T20:02:43 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myThirdTest -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-17T20:58:05 IST" name="logOutFromTheApplication" finished-at="2021-04-17T20:58:11 IST" duration-ms="6349" status="PASS">
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-20T20:02:43 IST" name="logOutFromTheApplication" finished-at="2021-04-20T20:02:49 IST" duration-ms="6207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-17T20:58:11 IST" name="loginToTheApplication" finished-at="2021-04-17T20:58:18 IST" duration-ms="6323" status="PASS">
+        <test-method is-config="true" signature="loginToTheApplication()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-20T20:02:49 IST" name="loginToTheApplication" finished-at="2021-04-20T20:02:55 IST" duration-ms="6264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method signature="myFourthTest()[pri:4, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-17T20:58:18 IST" name="myFourthTest" finished-at="2021-04-17T20:58:18 IST" duration-ms="23" status="PASS">
+        <test-method signature="myFourthTest()[pri:4, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-20T20:02:55 IST" name="myFourthTest" finished-at="2021-04-20T20:02:55 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myFourthTest -->
-        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-17T20:58:18 IST" name="logOutFromTheApplication" finished-at="2021-04-17T20:58:24 IST" duration-ms="6310" status="PASS">
+        <test-method is-config="true" signature="logOutFromTheApplication()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-20T20:02:55 IST" name="logOutFromTheApplication" finished-at="2021-04-20T20:03:01 IST" duration-ms="6203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromTheApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-17T20:58:24 IST" name="closeBrowser" finished-at="2021-04-17T20:58:28 IST" duration-ms="4326" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.athmatest.qa.testcases.Sample1Test@5be6e01c]" started-at="2021-04-20T20:03:01 IST" name="closeBrowser" finished-at="2021-04-20T20:03:02 IST" duration-ms="623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

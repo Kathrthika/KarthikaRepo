@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.athmatest.qa.testcases.NewRegistrationTest">
+      <class name="com.athmatest.qa.testcases.SampleTest">
         <methods>
-          <include name="newRegistration" invocation-numbers="1"/>
+          <include name="myFourthTest"/>
+          <include name="myThirdTest"/>
           <include name="closeBrowser"/>
           <include name="intialization"/>
           <include name="loginToTheApplication"/>
           <include name="logOutFromTheApplication"/>
         </methods>
-      </class> <!-- com.athmatest.qa.testcases.NewRegistrationTest -->
+      </class> <!-- com.athmatest.qa.testcases.SampleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
